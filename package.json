@@ -1,0 +1,14 @@
+{
+  "name": "three-viewer",
+  "version": "1.0.0",
+  "description": "Three.js Scene Viewer",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "author": "HercuryZheng",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.2"
+  }
+}

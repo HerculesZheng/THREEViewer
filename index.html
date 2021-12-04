@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threejs Viewer</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="mainCanvas"></canvas>
+
+    <!-- <script type="module">
+        import  { GLContextGenerator } from "./src/scripts/initScene.js";
+
+        window.glGenerator = new GLContextGenerator();
+
+        var glGenerator = window.glGenerator;
+        glGenerator.initScene();
+        
+        render();
+        
+        function render() {
+            glGenerator.renderer.render(glGenerator.scene, glGenerator.camera);
+        }
+    </script> -->
+    <script src="./render.js" type="module"></script>
+</body>
+</html>
